@@ -1,0 +1,8 @@
+REM Fake Windows Update prank - opens in default browser, fullscreen
+DELAY 1000
+GUI r
+DELAY 500
+STRING https://fakeupdate.net/win10ue/
+ENTER
+DELAY 3000
+F11
