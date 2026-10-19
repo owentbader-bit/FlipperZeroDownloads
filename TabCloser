@@ -1,0 +1,6 @@
+REM Closes browser tabs repeatedly until stopped
+ID 05AC:021E Apple:Keyboard
+DEFAULT_DELAY 400
+DELAY 2000
+CTRL w
+REPEAT 5000
