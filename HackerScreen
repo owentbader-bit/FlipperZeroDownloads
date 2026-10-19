@@ -1,0 +1,17 @@
+
+REM Fake hacker terminal - minimalist, more convincing
+DELAY 1000
+GUI r
+DELAY 500
+STRING https://hackedscreen.com/
+ENTER
+DELAY 3500
+REM Close the intro first, then go fullscreen
+REM Close the second intro 
+TAB
+DELAY 150
+TAB
+DELAY 150
+ENTER
+DELAY 500
+F11
