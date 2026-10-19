@@ -1,0 +1,17 @@
+REM Hacker Typer - opens site, goes fullscreen, then spams keys
+DEFAULT_DELAY 20
+DELAY 1000
+GUI r
+DELAY 500
+STRING https://hackertyper.net/
+ENTER
+DELAY 3500
+F11
+DELAY 1500
+REM Click-free focus: the page listens for any keypress
+STRING asdfghjkl
+REPEAT 5000
+STRING qwertyuiop
+REPEAT 5000
+STRING zxcvbnm
+REPEAT 5000
